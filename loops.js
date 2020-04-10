@@ -23,6 +23,8 @@ function whileLoop(n) {
         i = i + 1
         return i;
       }
-    do {console.log("I run once regardless.")};
+    do {
+    console.log("I run once regardless.")
+  };
     while (incremementVariable() < num)
   }
